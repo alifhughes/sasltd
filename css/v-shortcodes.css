@@ -858,7 +858,8 @@
 }
 
 .feature-box-text-inner p:last-child {
-    margin-bottom: 0;
+	text-align: left;
+    margin-bottom: 3px;
 }
 
 .feature-box-icon:hover,
