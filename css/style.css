@@ -330,6 +330,7 @@ p {
     font-size: 13px;
     line-height: 22px;
     font-family: 'Open Sans';
+	text-align: justify;
 }
 
 ul {
