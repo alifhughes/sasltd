@@ -653,6 +653,25 @@
 
 
 /* --------------------------------------------
+	VALUES BOX THIN SHORTCODE
+-------------------------------------------- */
+
+.values-box {
+    display: block;
+    position: relative;
+    z-index: 2;
+	border: 2px solid #DADADA;
+	border-radius: 4px;
+}
+
+
+.values-box.values-box-thin {
+	padding: 10px;
+	margin: 5px;
+}
+
+
+/* --------------------------------------------
 	ICON BOX SHORTCODE
 -------------------------------------------- */
 

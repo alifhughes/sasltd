@@ -2,6 +2,8 @@ Home
 - pull slogon and desc to the right
 - have carousel on the left 
 
+- added carousel underneath
+
 Expierence
 - sort out text align with bullet points 
 
@@ -12,6 +14,8 @@ services
 (done)
 
 values
-- make them all in line
+- make them all in line (done)
+
+themes and logos
 
 contact us make it look like pic in email
