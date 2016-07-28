@@ -1,21 +1,37 @@
 Home
-- pull slogon and desc to the right
-- have carousel on the left 
+·        Can the toolbar at the top show as the same size and light grey colour it goes when you scroll down to the other pages?
+·        Can the text on the home page be the same font style as the other pages?							 look at classes
+·        Can the Commercially Minded Accountants….. heading change to ‘Commercial Accountants for Entrepreneurial Businesses’?  DONE 
+·        Can the background be a slightly duller blue – we are accountants after all…    						DONE
+·        Can the text below the heading be block text?										DONE
+·        Rather than rotating testimonials on the home page could we just have the two testimonials you currently have fixed in a text box each? A bit like the below:
+- added carousel underneath DONE
 
-- added carousel underneath
+
 
 Expierence
-- sort out text align with bullet points 
+·        Can just the bullet points be aligned to the left rather than centred? If they can be aligned to the left but starting a bit further in than the above writing that would be really good done
+·        Can the colon from the last paragraph be changed to a full stop DONE
 
 master plan 
-- sort out text align with bullet points
+·        Can the Master Plan heading be moved down one or two lines so it is further down the page?  DONE
 
-services 
-(done)
+Services
+·        Can the heading be centred and the same size as the headings on other pages 				DONE
+·        Can the ‘we offer a broad range….’ Writing be smaller font – similar size to the text on the other pages DONE
 
-values
-- make them all in line (done)
+Our Values
+·        Can the Our Values heading be moved down one or two lines so it is further down the page?  		DONE
+·        Can the text boxes be made wider 										DONE
+.        the writing in the boxes (Excluding the headings) be made smaller? 					DONE
+·        Can the bullet points be added to each point and these aligned to the left?                            (ask if bullet points inside a box??) 
+·        Can the background of the text boxes be this kind of colour below?                                      
 
-themes and logos
+Recruitment
+·        Can the heading be moved up the page one or two lines?							DONE
+·        Can the ICAEW logo be displayed at the bottom of this page?							DONE
 
-contact us make it look like pic in email
+Contact Us
+·        Please can the telephone number change to 01923 277915
+·        Is there any way of getting a google map of our office into the space below the Contact Us heading?
+·        Can the box on the right be moved up so it all shows on the page?

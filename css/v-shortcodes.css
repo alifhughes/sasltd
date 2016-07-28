@@ -650,7 +650,14 @@
     vertical-align: -4px;
 }
 
-
+/* --------------------------------------------
+        TESTIMONIALS HOME BOX
+---------------------------------------------*/
+.testimonial-box-home {
+    z-index: 21;
+    background-color: white;
+    margin-bottom: 15px;
+}
 
 /* --------------------------------------------
 	VALUES BOX THIN SHORTCODE
@@ -659,15 +666,14 @@
 .values-box {
     display: block;
     position: relative;
-    z-index: 2;
-	border: 2px solid #DADADA;
-	border-radius: 4px;
+    border: 2px solid #DADADA;
+    border-radius: 4px;
 }
 
 
 .values-box.values-box-thin {
-	padding: 10px;
-	margin: 5px;
+    padding: 10px;
+    margin: 5px;
 }
 
 

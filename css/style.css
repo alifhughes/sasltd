@@ -131,6 +131,10 @@ table.v-table th,
     padding-top: 30px !important;
 }
 
+.margin-left-30 {
+    margin-left: 30px !important;
+}
+
 .no-bottom-padding {
     padding-bottom: 0px !important;
 }
@@ -4576,4 +4580,10 @@ body .btn-gplus:focus {
 
 .v-portfolio-filter-wrap .select i {
     margin-right: 10px;
+}
+
+.testimonial-box-home {
+    z-index: 21;
+    background-color: white;
+    margin-bottom: 20px;
 }
