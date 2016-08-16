@@ -35,10 +35,32 @@
     <!-- Slick CSS -->
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyAUKik-Gn5vjWsF_kq0a1pxXXwd5K0IfwA"></script>
+    <script type="text/javascript">
+      function initialise() {
+          var position = new google.maps.LatLng(51.7087454,-0.4412375);
+              var myOptions = {
+                zoom: 10,
+                center: position,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+              };
 
+              var map = new google.maps.Map(
+                  document.getElementById("map_canvas"),
+                  myOptions
+              );
+
+              var marker = new google.maps.Marker({
+                  position: position,
+                  map: map
+              });
+
+            }
+
+    </script>
 </head>
 
-<body class="no-page-top">
+<body class="no-page-top" onload="initialise()">
 
     <!--Header-->
     <!--Set your own background color to the header-->
@@ -578,58 +600,52 @@ If you are interested in becoming part of the team, then please send across an u
         </div>
         <!--End Recruitment-->
 
-            <!--Call Us-->
-            <div id="contact-us">
-                <img alt="contact-us" src="img/contactus.png" style="max-width: auto;">
+            <!--contact Us-->
+            <div class="v-page-wrap no-bottom-spacing no-top-spacing" id="contact-us" style="background-image: url(img/contactusBackground.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5 v-page-wrap no-bottom-spacing no-top-spacing" style="background-color: rgba(134, 134, 134, .6);">
+                            <p class="v-smash-text-large text-center" style="color: #FFFFFF; margin-top: 50px;">
+                                <span>Contact us</span>
+                            </p>
+                            <div id="map_canvas" style="height: 400px; width:100%;"></div>
+                        </div>
+                        <div class="col-sm-offset-1 col-sm-5 v-page-wrap no-bottom-spacing no-top-spacing" style="background-color: rgba(134, 134, 134, .6);">
+                            <p class="v-smash-text text-left" style="color: #FFFFFF; margin-top: 55px; font-size: 24px;">
+                                <span>Email: <a href="mailto:will@sas-accountants.com" style="color: #FFFFFF" >will@sas-accountants.com</a></span>
+                            </p>
+
+                            <p class="v-smash-text text-left" style="margin-top: 10px; color: #FFFFFF; font-size: 24px;">
+                                <span>Tel: 01923 277915</span>
+                            </p>
+
+                            <p class="v-smash-text text-left" style="margin-top: 10px; color: #FFFFFF; font-size: 24px;">
+                                <span>Our Address: </span>
+                            </p>
+
+                            <p class="v-smash-text text-left" style="padding-left: 10px; color: #FFFFFF; font-size: 24px;">
+                                <span style="padding-bottom:5px;">Office F5 </span>
+                                <br />
+                                <span style="padding-bottom:5px;">Monaco House</span>
+                                <br />
+                                <span style="padding-bottom:5px;">Station Road</span>
+                                <br />
+                                <span style="padding-bottom:5px;">Kings Langley</span>
+                                <br />
+                                <span style="padding-bottom:5px;">Hertfordshire</span>
+                                <br />
+                                <span style="padding-bottom:5px;">WD4 8LQ</span>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!--End Call Us-->
+            <!--End contact Us-->
         </div>
 
         <!--Footer-Wrap-->
         <div class="footer-wrap">
-            <footer>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8">
-                            <section class="widget">
-                                <img alt="SAS-Ltd" src="img/SAS-Ltd-Logo-01-cropped.png" style="height: auto; margin-bottom: 20px; margin-right: 35px;">
-                                <br \>
-                                <img alt="ICAEW" src="img/icaew_firm_logo_RGB.gif" style="height: 95px; width: auto; margin-bottom: 20px;">
-                            </section>
-                        </div>
-                        <div class="col-sm-4">
-                            <section class="widget">
-                                <div class="widget-heading">
-                                    <h4>Contact Us</h4>
-                                </div>
-                                <div class="footer-contact-info">
-                                    <ul>
-                                        <li>
-                                            <p><i class="fa fa-building"></i>Sterling Accounting Solutions</p>
-                                        </li>
-                                        <li>
-                                            <p><i class="fa fa-map-marker"></i>
-                                                    Office F5 <br>
-                                                    Monaco House<br>
-                                                    Station Road <br>
-                                                    Kings Langley <br>
-                                                    Hertfordshire WD4 8LQ <br>
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p><i class="fa fa-envelope"></i><strong>Email:</strong> <a href="mailto:will@sas-accountants.com">will@sas-accountants.com</a></p>
-                                        </li>
-                                        <li>
-                                            <p><i class="fa fa-phone"></i><strong>Phone:</strong> 07807 910 379</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </section>
-                        </div>
-
-                    </div>
-                </div>
-            </footer>
 
             <div class="copyright">
                 <div class="container">
@@ -637,6 +653,7 @@ If you are interested in becoming part of the team, then please send across an u
                 </div>
             </div>
         </div>
+
         <!--End Footer-Wrap-->
     </div>
 
