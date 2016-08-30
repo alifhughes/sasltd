@@ -1,37 +1,29 @@
 Home
-·        Can the toolbar at the top show as the same size and light grey colour it goes when you scroll down to the other pages?
-·        Can the text on the home page be the same font style as the other pages?							 look at classes
-·        Can the Commercially Minded Accountants….. heading change to ‘Commercial Accountants for Entrepreneurial Businesses’?  DONE 
-·        Can the background be a slightly duller blue – we are accountants after all…    						DONE
-·        Can the text below the heading be block text?										DONE
-·        Rather than rotating testimonials on the home page could we just have the two testimonials you currently have fixed in a text box each? A bit like the below:
-- added carousel underneath DONE
-
+- Can the main text ‘Sterling Accounting Solutions are a dynamic…” be formatted as justified (block) text?
+- If everything on the home page can be moved up so it all shows on one page on a laptop screen that would be really good? (look at view port for 1920 x 1080
+- Can the box around Jamie’s testimonial be made the same size as Tom’s?                                                                                        DONE
+- Virginia noticed that in Tom’s testimonial it says SAS have been have working with us… Can you please delete the second ‘have’                                DONE
 
 
 Expierence
-·        Can just the bullet points be aligned to the left rather than centred? If they can be aligned to the left but starting a bit further in than the above writing that would be really good done
-·        Can the colon from the last paragraph be changed to a full stop DONE
-
-master plan 
-·        Can the Master Plan heading be moved down one or two lines so it is further down the page?  DONE
+- ‘Experience’ heading be moved down one line? DONE
+- hr between expierence and master plan        DONE
+spacing above recruitment                      DONE
 
 Services
-·        Can the heading be centred and the same size as the headings on other pages 				DONE
-·        Can the ‘we offer a broad range….’ Writing be smaller font – similar size to the text on the other pages DONE
+- Can the text in the text boxes be made slightly larger?
 
 Our Values
-·        Can the Our Values heading be moved down one or two lines so it is further down the page?  		DONE
-·        Can the text boxes be made wider 										DONE
-.        the writing in the boxes (Excluding the headings) be made smaller? 					DONE
-·        Can the bullet points be added to each point and these aligned to the left?                            (ask if bullet points inside a box??) 
-·        Can the background of the text boxes be this kind of colour below?                                      
-
-Recruitment
-·        Can the heading be moved up the page one or two lines?							DONE
-·        Can the ICAEW logo be displayed at the bottom of this page?							DONE
+- Can the ‘Mutually Beneficial Relationships’ box be made the same size as ‘Honesty & Integrity’? Similar with ‘Professional Competence’ being the same size as ‘Respect’?  DONE
+·        Can the background of the text boxes be this kind of colour below: RED                                                                                             DONE
 
 Contact Us
-·        Please can the telephone number change to 01923 277915
-·        Is there any way of getting a google map of our office into the space below the Contact Us heading?
-·        Can the box on the right be moved up so it all shows on the page?
+- make contact us page bigger                           DONE
+- move contents of the columns down                     DONE
+- social network top right header and below address     DONE
+- ICWE logo at the very bottom right                    DONE
+- map position correction                               DONE
+
+1920 x 1080
+trebuchet font change
+

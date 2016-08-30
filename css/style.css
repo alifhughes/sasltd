@@ -4587,3 +4587,7 @@ body .btn-gplus:focus {
     background-color: white;
     margin-bottom: 20px;
 }
+
+.contact-us-section-size {
+    min-height: 600px;
+}

@@ -653,12 +653,12 @@
 /* --------------------------------------------
         TESTIMONIALS HOME BOX
 ---------------------------------------------*/
-.testimonial-box-home {
+.values-box.values-box-thin.testimonial-box-home {
     z-index: 21;
     background-color: white;
     margin-bottom: 15px;
+    border: 2px solid #DADADA;
 }
-
 /* --------------------------------------------
 	VALUES BOX THIN SHORTCODE
 -------------------------------------------- */
@@ -666,7 +666,7 @@
 .values-box {
     display: block;
     position: relative;
-    border: 2px solid #DADADA;
+    border: 2px solid #A40000;
     border-radius: 4px;
 }
 
@@ -674,6 +674,10 @@
 .values-box.values-box-thin {
     padding: 10px;
     margin: 5px;
+}
+
+.values-box.values-box-thin.values-box-bottom-padding {
+    padding-bottom: 28px;
 }
 
 
@@ -2303,6 +2307,7 @@ ul.social-icons.large li a {
     height: 50px;
     line-height: 50px;
     font-size: 24px;
+    color: white;
 }
 
 ul.social-icons.large li a i {

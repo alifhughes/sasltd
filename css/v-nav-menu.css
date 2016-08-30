@@ -316,6 +316,7 @@ header div.logo {
     display: table;
     position: absolute;
     height: 90px;
+    margin-left: 50px;
 }
 
 header div.logo a {

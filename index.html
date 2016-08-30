@@ -38,7 +38,7 @@
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyAUKik-Gn5vjWsF_kq0a1pxXXwd5K0IfwA"></script>
     <script type="text/javascript">
       function initialise() {
-          var position = new google.maps.LatLng(51.7087454,-0.4412375);
+          var position = new google.maps.LatLng(51.708981,-0.439188);
               var myOptions = {
                 zoom: 10,
                 center: position,
@@ -65,7 +65,7 @@
     <!--Header-->
     <!--Set your own background color to the header-->
     <header class="semi-transparent-header" data-bg-color="rgba(9, 103, 139, 0.36)" data-font-color="#fff">
-        <div class="container">
+        <div>
 
             <!--Site Logo-->
             <div class="logo" data-sticky-logo="img/SAS-Ltd-Logo-01-cropped.png" data-normal-logo="img/SAS-Ltd-Logo-01-cropped.png">
@@ -83,9 +83,11 @@
                         <li class="active">
                             <a data-hash href="#home"><i class="fa fa-home"></i>Home</a>
                         </li>
+                        <!--
                         <li>
                             <a data-hash href="#testimonials"><i class="fa fa-location-arrow"></i>Testimonials</a>
                         </li>
+                        -->
                         <li>
                             <a data-hash href="#experience"><i class="fa fa-location-arrow"></i>Experience</a>
                         </li>
@@ -103,6 +105,15 @@
                         </li>
                         <li>
                             <a data-hash href="#contact-us"><i class="fa fa-location-arrow"></i>Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
                         </li>
                     </ul>
                 </nav>
@@ -125,7 +136,7 @@
 
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
 
-                        <img src="img/slider/image2.png" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <img alt="home-background" src="img/slider/image2.png" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
                         <div class="text-center tp-caption v-smash-text-large v-caption-big-white sfl stl"
                             data-x="250"
@@ -154,11 +165,11 @@
                             data-elementdelay="0"
                             data-endelementdelay="0"
                             data-endspeed="300">
-                            Sterling Accounting Solutions are a dynamic, fast-growing accountancy <br />
+                            Sterling Accounting Solutions are a  dynamic,  fast-growing accountancy <br />
                             practice specialising in business planning, advisory and support services <br />
-                            for SME’s. Based in Hertfordshire, but with a client base spread across <br />
-                            the UK, our clients operate in a wide variety of industries including  <br />
-                            recruitment, construction, manufacturing, wholesale distribution and IT. 
+                            for SME’s. Based in Hertfordshire, but with a client base spread across the<br />
+                            UK, our clients operate in a wide variety of industries including recruitment, <br />
+                            construction, manufacturing, wholesale distribution and IT. 
                         </div>
 
                     </li>
@@ -167,7 +178,7 @@
 
             <div class="shadow-right"></div>
             <div class="container">
-                <div class="row">
+                <div class="row" style="display:inline-block;">
 
                     <div class="col-sm-6">
 
@@ -186,11 +197,11 @@
 
                     <div class="col-sm-6">
 
-                        <div class="values-box values-box-thin testimonial-box-home">
+                        <div class="values-box values-box-thin testimonial-box-home" style="padding-bottom: 11px;">
                             <div class="feature-box-text text-center clearfix">
                                 <h3>Jamie Mitchell – Group MD of SSA Group</h3>
                                 <div class="feature-box-text-inner text-justify padding-30">
-                                    Having worked closely with SAS Ltd for close to 15 years now, I cannot compliment their work highly enough. They have always proved to be incredibly reliable, able to guide us as a business with any new legislation and provide us with the most up to date detail required. On top of this, they are very personable & understanding to our needs and have gone above and beyond what I would typically expect from an accounting firm. They really do understand us as a business and I would highly recommend them as a <b>professional business willing to go that extra mile</b>.
+                                    Having worked closely with SAS Ltd for close to 15 years now, I cannot compliment their work highly enough. They have always proved to be incredibly reliable, able to guide us as a business with any new legislation and provide us with the most up to date detail required. On top of this, they are very personable &amp; understanding to our needs and have gone above and beyond what I would typically expect from an accounting firm. They really do understand us as a business and I would highly recommend them as a <b>professional business willing to go that extra mile</b>.
                                 </div>
                             </div>
                         </div>
@@ -230,7 +241,7 @@
                                     <div class="feature-box-text text-center clearfix">
                                         <h3>Tom McLoughlin – CEO of MAC’s Plasterboard Systems Ltd</h3>
                                         <div class="feature-box-text-inner text-justify padding-30">
-                                            Sterling Accounting Solutions Limited have been have working with our company now for over a year. During that time, we have received excellent service and advice.
+                                            Sterling Accounting Solutions Limited have been working with our company now for over a year. During that time, we have received excellent service and advice.
                                             Sterling Accounting Solutions have consistently supplied reliable insight and guidance - particularly in the management of our cash flow and in negotiating on our behalf with external lenders.
                                             Their combination of expertise, client service and value is a great asset to our company. We view SAS as a <b>trusted and valued business partner</b>.
                                         </div>
@@ -254,12 +265,10 @@
                 </div>
             </div>
         </div>
-
-        <div class="v-spacer col-sm-12 v-height-standard"></div>
-        <div class="v-spacer col-sm-12 v-height-standard"></div>
         -->
-
-        <!--Experience-->
+       <!--Experience-->
+        <div class="v-spacer col-sm-12 v-height-standard"></div>
+        <div class="v-spacer col-sm-12 v-height-standard"></div>
         <div class="v-page-wrap no-bottom-spacing">
             <div class="container" id="experience">
 
@@ -313,9 +322,8 @@ Spotting an opportunity, we have developed a flexible service, which is a fracti
         <!-- End expierences -->
 
         <div class="v-spacer col-sm-12 v-height-standard"></div>
-        <div class="v-spacer col-sm-12 v-height-standard"></div>
         <!--Master-plan-->
-        <div class="v-page-wrap no-bottom-spacing">
+        <div class="v-bg-stylish">
 
             <div class="container" id="master-plan">
 
@@ -499,7 +507,7 @@ We offer a broad range of financial and accountancy services to all of our clien
 
                     <div class="col-md-4">
                         <div class="values-box values-box-thin">
-                            <div class="feature-box-text text-center clearfix">
+                            <div class="feature-box-text text-center clearfix ">
                                 <h3>Mutually Beneficial Relationships</h3>
                                 <div class="feature-box-text-inner text-justify" style="font-size:11px;">
     Develop long term relationships that benefit all parties involved.
@@ -513,7 +521,7 @@ We offer a broad range of financial and accountancy services to all of our clien
                     </div>
 
                     <div class="col-md-4">
-                        <div class="values-box values-box-thin">
+                        <div class="values-box values-box-thin values-box-bottom-padding">
                             <div class="text-center feature-box-text clearfix">
                                 <h3>Honesty & Integrity</h3>
                                 <div class="text-justify feature-box-text-inner" style="font-size:11px;">
@@ -526,7 +534,7 @@ We offer a broad range of financial and accountancy services to all of our clien
                     </div>
 
                     <div class="col-md-4">
-                        <div class="values-box values-box-thin">
+                        <div class="values-box values-box-thin values-box-bottom-padding">
                             <div class="text-center feature-box-text clearfix">
                                 <h3>Objectivity</h3>
                                 <div class="text-justify feature-box-text-inner" style="font-size:11px;">
@@ -554,8 +562,8 @@ We offer a broad range of financial and accountancy services to all of our clien
                     </div>
 
                     <div class="col-md-4">
-                        <div class="values-box values-box-thin">
-                            <div class="text-center feature-box-text clearfix">
+                        <div class="values-box values-box-thin values-box-bottom-padding">
+                            <div class="text-center feature-box-text">
                                 <h3>Respect</h3>
                                 <div class="text-justify feature-box-text-inner" style="font-size: 11px;">
     Behave in a professional manner at all times.
@@ -570,11 +578,12 @@ We offer a broad range of financial and accountancy services to all of our clien
         <!-- End values -->
 
         <!--Recruitment-->
+        <div class="v-spacer col-sm-12 v-height-standard"></div>
         <div class="v-bg-stylish" id="recruitment">
             <div class="container">
                 <div class="row app-brief">
                     <div class="col-sm-12">
-                        <p class="v-smash-text-large pull-top text-center">
+                        <p class="v-smash-text-large text-center">
                             <span>Recruitment</span>
                         </p>
                         <div class="horizontal-break"></div>
@@ -601,17 +610,17 @@ If you are interested in becoming part of the team, then please send across an u
         <!--End Recruitment-->
 
             <!--contact Us-->
-            <div class="v-page-wrap no-bottom-spacing no-top-spacing" id="contact-us" style="background-image: url(img/contactusBackground.jpg);">
+            <div class="v-page-wrap no-bottom-spacing no-top-spacing contact-us-section-size" id="contact-us" style="background-image: url(img/contactusBackground.jpg);">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-5 v-page-wrap no-bottom-spacing no-top-spacing" style="background-color: rgba(134, 134, 134, .6);">
-                            <p class="v-smash-text-large text-center" style="color: #FFFFFF; margin-top: 50px;">
+                        <div class="col-sm-5 v-page-wrap no-bottom-spacing no-top-spacing contact-us-section-size" style="background-color: rgba(134, 134, 134, .6);">
+                            <p class="v-smash-text-large text-center" style="color: #FFFFFF; margin-top: 90px;">
                                 <span>Contact us</span>
                             </p>
                             <div id="map_canvas" style="height: 400px; width:100%;"></div>
                         </div>
-                        <div class="col-sm-offset-1 col-sm-5 v-page-wrap no-bottom-spacing no-top-spacing" style="background-color: rgba(134, 134, 134, .6);">
-                            <p class="v-smash-text text-left" style="color: #FFFFFF; margin-top: 55px; font-size: 24px;">
+                        <div class="col-sm-offset-1 col-sm-5 v-page-wrap no-bottom-spacing no-top-spacing contact-us-section-size" style="background-color: rgba(134, 134, 134, .6);">
+                            <p class="v-smash-text text-left" style="color: #FFFFFF; margin-top: 160px; font-size: 24px;">
                                 <span>Email: <a href="mailto:will@sas-accountants.com" style="color: #FFFFFF" >will@sas-accountants.com</a></span>
                             </p>
 
@@ -624,8 +633,6 @@ If you are interested in becoming part of the team, then please send across an u
                             </p>
 
                             <p class="v-smash-text text-left" style="padding-left: 10px; color: #FFFFFF; font-size: 24px;">
-                                <span style="padding-bottom:5px;">Office F5 </span>
-                                <br />
                                 <span style="padding-bottom:5px;">Monaco House</span>
                                 <br />
                                 <span style="padding-bottom:5px;">Station Road</span>
@@ -637,8 +644,17 @@ If you are interested in becoming part of the team, then please send across an u
                                 <span style="padding-bottom:5px;">WD4 8LQ</span>
                             </p>
 
+                            <div class="center">
+                                <ul class="social-icons large center">
+                                    <li class="linkedin"><a href="#" target="_blank"><i class="fa fa-linkedin"></i><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="twitter"><a href="http://www.twitter.com/#" target="_blank"><i class="fa fa-twitter"></i><i class="fa fa-twitter"></i></a></li>
+                                    <li class="facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i><i class="fa fa-facebook"></i></a></li>
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
+
                 </div>
             </div>
             <!--End contact Us-->
@@ -649,13 +665,19 @@ If you are interested in becoming part of the team, then please send across an u
 
             <div class="copyright">
                 <div class="container">
-                    <p class="text-center">Sterling Accounting Solutions Limited is a company registered in England and Wales under number 07787772. Sterling Accounting Solutions Limited is a member of the Institute of Chartered Accountants in England and Wales Practice Assurance Scheme under registration number C004248247.</p>
+                    <div class="row">
+                        <div class="col-sm-10">
+                            <p class="text-justify">Sterling Accounting Solutions Limited is a company registered in England and Wales under number 07787772. Sterling Accounting Solutions Limited is a member of the Institute of Chartered Accountants in England and Wales Practice Assurance Scheme under registration number C004248247.</p>
+                        </div>
+                        <div class="col-sm-2">
+                            <img alt="ICAEW" src="img/icaew_firm_logo_RGB.gif">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!--End Footer-Wrap-->
-    </div>
 
     <!--// BACK TO TOP //-->
     <div id="back-to-top" class="animate-top"><i class="fa fa-angle-up"></i></div>
